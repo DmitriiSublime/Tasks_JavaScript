@@ -4,7 +4,6 @@ m = [7, 3, 21];
 
 document.querySelector('btn').addEventListener('click',() => {
     for (let i = 0; i < 0; i++) {
-
     }
 })
 

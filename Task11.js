@@ -10,8 +10,6 @@ function getNumber() {
     }
 }
 getNumber()
-
 console.log(m);
-
 let b = document.querySelector('.out').innerHTML
 document.querySelector('.b-1').addEventListener('click', getNumber).innerHTML = b;
