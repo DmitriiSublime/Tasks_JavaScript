@@ -7,11 +7,11 @@ const persons = [
     {name: 'Игорь', age: 47},
     {name: 'Анастасия', age: 31},
     {name: 'Глеб', age: 45},
-    {name: 'Мерина', age: 33}
+    {name: 'Марина', age: 33}
 ];
-
 
 let getName = persons.map(person => {
     return `${'Имя:'} ${person.name + ','} ${'возраст:'} ${person.age}`
 })
 console.log(getName);
+
