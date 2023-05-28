@@ -2,6 +2,7 @@
 // Напишите код для суммирования всех зарплат и сохраните результат в переменной sum. Должно получиться 390.
 // Если объект salaries пуст, то результат должен быть 0.
 
+let sum = 0;
 
 let salaries = {
     John: 100,
@@ -9,6 +10,9 @@ let salaries = {
     Pete: 130
 };
 
-let sum = salaries.John + salaries.Ann + salaries.Pete;
+for (let key in salaries) {
+    sum += salaries[key];
+}
 
 console.log(sum);
+
